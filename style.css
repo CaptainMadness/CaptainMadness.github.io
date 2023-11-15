@@ -19,12 +19,19 @@ header{
 
 body{
   margin: 0px;
-  color: #FAF0E6;
-  background: #352F44;
+  background:linear-gradient(to left, #352F44,#5C5470);
   
 }
+.center{
+  position: absolute;
+  top:13%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
 
 section{
+  color: #FAF0E6;
   position: relative;
   display: felx;
   flex-direction: column;
@@ -65,18 +72,12 @@ section{
   padding: 5px;
   width:100%;
 }
-.text {
-  align-self: flex-end;
-}
-.paragraph {
-  display: flex;
-}
-.image {
-  width: 42px;
-  height: 42px;
-}
+
+
+
 
 footer{
+  
   color: #FAF0E6;
   width: 100%;
   text-align: right;
@@ -84,5 +85,38 @@ footer{
   bottom:0;
   position: fixed;
   
+}
+.container{
+  position: absolute;
+  top:50%;
+  left:45%;
+  transform: translate(-50% -50%);
+  text-align: center;
+}
+.button{
+  background-color: #5C5470;
+  padding: 10px 15px;
+  color: #FAF0E6;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+  margin: 25px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.button:hover{
+  background: #5C5470;
+  color: #FAF0E6;  
+}
+  
+table{
+  width: 100%;
+  border-collapse: collapse;
+  color: #FAF0E6;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
